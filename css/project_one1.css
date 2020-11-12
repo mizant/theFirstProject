@@ -1,0 +1,37 @@
+.text {
+	margin-top: 20%;
+	text-align: center;
+	flex-direction: column;
+	justify-content: center;
+	font-size: 62px;
+	font-family: 'Roboto', sans-serif;
+	transform: translate(0px, 120%);
+	opacity: 0; 
+	transition: all 0.8s ease 0s;
+}
+
+.text_active {
+ 	margin-top: 10%;
+ 		display: flex;
+ 		text-align: center;
+ 		flex-direction: column;
+ 		justify-content: center;
+ 		font-size: 62px;
+ 		font-family: "Varela Round";
+ 		opacity: 1;
+ 		transition: 2s ease;
+ 		transform: translate(0px, 0px);
+ 		opacity: 1;
+}
+
+.text_p {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	font-size: 20px;
+	font-family: Lato;
+	padding-right: 190px;
+	padding-left:190px;
+	color: #8c8f94;
+	margin-bottom: 5%;
+} 
